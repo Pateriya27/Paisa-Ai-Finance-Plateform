@@ -1,0 +1,113 @@
+# Finance Platform - Application Overview
+
+## Introduction
+This is a full-stack AI-powered finance platform built with Next.js, Prisma, Clerk, Gemini AI, and other modern technologies. The application provides comprehensive personal finance management tools enhanced with AI-powered recommendations.
+
+## Core Technologies
+- **Frontend**: Next.js 15, React 19, Tailwind CSS, Shadcn UI components
+- **Backend**: Next.js API routes, Prisma ORM
+- **Database**: PostgreSQL (via Supabase, as indicated in README)
+- **Authentication**: Clerk
+- **AI Integration**: Google Gemini AI for financial recommendations
+- **Email**: Resend for transactional emails
+- **Background Jobs**: Inngest
+- **Security**: ArcJet for API security and rate limiting
+
+## Key Features
+
+### 1. User Authentication & Authorization
+- Secure sign-up and sign-in via Clerk
+- User onboarding flow
+- Profile management
+
+### 2. Dashboard
+- Financial overview with key metrics
+- Account balances and summaries
+- Recent transaction history
+- Budget progress visualization
+- AI-powered financial recommendations
+
+### 3. Account Management
+- Multiple account support (checking, savings, credit cards, etc.)
+- Default account designation
+- Account balance tracking
+
+### 4. Transaction Management
+- Recording income and expenses
+- Transaction categorization
+- Recurring transaction support
+- Transaction filtering and searching
+- Detailed transaction history and analytics
+
+### 5. Budgeting
+- Monthly budget creation and tracking
+- Budget categories with spending limits
+- Real-time budget utilization monitoring
+
+### 6. AI-Powered Financial Insights
+- Personalized savings recommendations based on spending patterns
+- Three types of recommendations:
+  - Quick Wins: Immediate actions for savings
+  - Monthly Plans: Medium-term financial strategies
+  - Long-term Strategies: Major financial planning advice
+- Potential savings calculations with monthly and annual impact
+
+### 7. Data Visualization
+- Spending trends over time
+- Category-based expenditure analysis
+- Income vs. expense comparison charts
+- Budget utilization visualizations
+
+### 8. Email Notifications
+- Transaction alerts
+- Budget threshold notifications
+- Financial advice and recommendations
+
+### 9. Support System
+- In-app help and support
+- Ticket creation and tracking
+
+## Application Architecture
+
+### Frontend Structure
+- Modern React with server components
+- Mobile-responsive design with Tailwind CSS
+- Dark/light mode support via next-themes
+- Organized by feature-based route structure
+
+### Backend Architecture
+- Next.js API routes for backend functionality
+- Prisma ORM for database operations
+- Server actions for secure data mutations
+- AI integration via Google's Generative AI SDK
+
+### Data Flow
+1. User interactions trigger server actions or API routes
+2. Data is processed, validated, and stored via Prisma
+3. AI recommendations are generated based on user transaction data
+4. Real-time UI updates via revalidation and cache management
+
+## Performance Optimizations
+- Caching of AI recommendations (6-hour duration)
+- Parallel data fetching for dashboard components
+- Optimized database queries with selective field retrieval
+- Suspense boundaries for improved loading experience
+- Component-level code splitting and lazy loading
+
+## Security Features
+- Secure authentication via Clerk
+- API protection with ArcJet
+- Environment variable protection for sensitive credentials
+- Data validation and sanitization
+
+## Future Enhancement Possibilities
+- Mobile application integration
+- Financial goal setting and tracking
+- Investment portfolio management
+- Tax planning and optimization
+- Expense prediction and forecasting
+- Marketplace for financial products
+
+## Known Issues
+- JSON parsing error in AI recommendations API that needs fixing
+- The error occurs when attempting to parse AI response data that contains invalid JSON format 
