@@ -374,7 +374,7 @@ function AISuggestions() {
       setLoading(false);
       abortControllerRef.current = null;
     }
-  }, [suggestions]);
+  }, [setCachedData, formatCurrency]);
 
   // Handle tab change without unnecessary rerenders
   const handleTabChange = useCallback((value) => {
