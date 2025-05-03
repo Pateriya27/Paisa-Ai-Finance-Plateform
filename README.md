@@ -1,2 +1,2 @@
-# Full Stack AI Fianace Platform with Next JS, Tailwind, Prisma
+# Full Stack AI  Finance Platform with Next JS, Tailwind, Prisma
 
