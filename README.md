@@ -6,9 +6,15 @@ A comprehensive personal finance management application powered by AI, built wit
 
 ## Features
 
-- **Dashboard:** Financial overview with key metrics and visualizations
-- **Account Management:** Multiple account types support with balance tracking
-- **Transaction Tracking:** Record and categorize income and expenses
+- **Dashboard:** Financial overview with key metrics and visualizations  
+  ![Dashboard Screenshot](public/dashboard.png)
+
+- **Account Management:** Multiple account types support with balance tracking  
+  ![Account Management Screenshot](public/account-management.png)
+
+- **Transaction Tracking:** Record and categorize income and expenses  
+  ![Transaction Tracking Screenshot](public/transaction-tracking.png)
+
 - **Budgeting:** Create and monitor monthly budgets with spending limits
 - **AI Recommendations:** Personalized financial insights and savings opportunities
 - **Data Visualization:** Track spending trends and financial patterns
@@ -16,14 +22,14 @@ A comprehensive personal finance management application powered by AI, built wit
 
 ## Tech Stack
 
-- **Frontend:** Next.js 15, React 19, Tailwind CSS, Shadcn UI
-- **Backend:** Next.js API routes, Prisma ORM
-- **Database:** PostgreSQL (via Supabase)
-- **Authentication:** Clerk
-- **AI:** Google Gemini AI for financial recommendations
-- **Email:** Resend for transactional emails
-- **Background Jobs:** Inngest
-- **Security:** ArcJet for API security
+- **Frontend:** Next.js 15, React 19, Tailwind CSS 3.3, Shadcn UI
+- **Backend:** Next.js API routes, Prisma ORM 5.0
+- **Database:** PostgreSQL 15 (via Supabase)
+- **Authentication:** Clerk 4.6
+- **AI:** Google Gemini AI (v2.1) for financial recommendations
+- **Email:** Resend 1.2 for transactional emails
+- **Background Jobs:** Inngest 0.9
+- **Security:** ArcJet 2.0 for API security
 
 ## Getting Started
 
