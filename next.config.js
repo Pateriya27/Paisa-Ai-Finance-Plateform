@@ -41,11 +41,11 @@ const nextConfig = {
   experimental: {
     // Enable React Server Components
     serverActions: {
-      allowedOrigins: ['localhost:3000']
+      allowedOrigins: ['localhost:3000', 'your-vercel-app-name.vercel.app']
     }
   },
   // Add support for modern syntax
   transpilePackages: ['lucide-react']
 }
 
-module.exports = nextConfig; 
+module.exports = nextConfig;

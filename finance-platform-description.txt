@@ -108,6 +108,3 @@ This is a full-stack AI-powered finance platform built with Next.js, Prisma, Cle
 - Expense prediction and forecasting
 - Marketplace for financial products
 
-## Known Issues
-- JSON parsing error in AI recommendations API that needs fixing
-- The error occurs when attempting to parse AI response data that contains invalid JSON format 
