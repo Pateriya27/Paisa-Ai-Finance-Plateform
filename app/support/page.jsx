@@ -117,7 +117,7 @@ export default function SupportPage() {
             Contact Support
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '200ms' }}>
-            Need help with Paisa? We're here to assist you.
+            Need help with Paisa? We&apos;re here to assist you.
           </p>
         </div>
         
@@ -223,7 +223,7 @@ export default function SupportPage() {
                       How do I add a new account?
                     </h4>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
-                      You can add a new account from the dashboard by clicking on the "Add Account" button.
+                      You can add a new account from the dashboard by clicking on the &quot;Add Account&quot; button.
                     </p>
                   </li>
                   <li>

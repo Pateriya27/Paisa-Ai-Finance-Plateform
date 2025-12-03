@@ -166,8 +166,8 @@ const FeatureTrackingPage = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">See Your Transactions at a Glance</h2>
                 <p className="text-gray-600 mb-8">
-                  Paisa's intuitive transaction view makes it easy to see where your money is going. 
-                  Filter by date, category, or tag to find exactly what you're looking for.
+                  Paisa&apos;s intuitive transaction view makes it easy to see where your money is going. 
+                  Filter by date, category, or tag to find exactly what you&apos;re looking for.
                 </p>
                 
                 <ul className="space-y-4">
@@ -250,7 +250,7 @@ const FeatureTrackingPage = () => {
               <div className="order-1 md:order-2">
                 <h2 className="text-3xl font-bold mb-6">Visualize Your Spending Habits</h2>
                 <p className="text-gray-600 mb-8">
-                  Paisa's powerful charts and reports help you understand your spending patterns at a glance.
+                  Paisa&apos;s powerful charts and reports help you understand your spending patterns at a glance.
                   Identify trends, spot opportunities to save, and make smarter financial decisions.
                 </p>
                 
@@ -291,7 +291,7 @@ const FeatureTrackingPage = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Tracking?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join thousands of users who have gained control of their finances with Paisa's
+            Join thousands of users who have gained control of their finances with Paisa&apos;s
             powerful expense tracking tools.
           </p>
           

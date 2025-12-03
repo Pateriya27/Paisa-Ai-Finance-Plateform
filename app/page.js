@@ -390,7 +390,7 @@ const LandingPage = () => {
                     >
                       <div className="card-3d-shadow"></div>
                       <div className="card-3d-content">
-                        <div className="text-purple-500 dark:text-purple-400 text-6xl opacity-20 absolute -top-2 -left-2">"</div>
+                        <div className="text-purple-500 dark:text-purple-400 text-6xl opacity-20 absolute -top-2 -left-2">&quot;</div>
                         <p className="text-gray-600 dark:text-gray-300 mb-6 relative">
                           {testimonial.quote}
                         </p>
@@ -447,7 +447,7 @@ const LandingPage = () => {
                     >
                       <div className="card-3d-shadow"></div>
                       <div className="card-3d-content">
-                        <div className="text-purple-500 dark:text-purple-400 text-6xl opacity-20 absolute -top-2 -left-2">"</div>
+                        <div className="text-purple-500 dark:text-purple-400 text-6xl opacity-20 absolute -top-2 -left-2">&quot;</div>
                         <p className="text-gray-600 dark:text-gray-300 mb-6 relative">
                           {testimonial.quote}
                         </p>

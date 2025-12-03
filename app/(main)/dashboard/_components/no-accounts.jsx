@@ -11,7 +11,7 @@ export default function NoAccounts() {
         <CreditCard className="h-16 w-16 mx-auto text-primary mb-4" />
         <h1 className="text-2xl font-bold mb-2">Create your first account</h1>
         <p className="text-muted-foreground max-w-md mb-6">
-          Start your financial journey by adding your first account. You'll be able to track
+          Start your financial journey by adding your first account. You&apos;ll be able to track
           expenses, set budgets, and get personalized recommendations.
         </p>
         <CreateAccountDrawer>

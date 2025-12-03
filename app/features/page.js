@@ -72,19 +72,12 @@ const FeaturePage = () => {
         <div className="particle particle-blue w-4 h-4 absolute top-1/3 right-1/4 animate-float" style={{ animationDuration: '7s', backgroundColor: 'rgba(255, 255, 255, 0.6)' }}></div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <a 
-            href="/" 
-            className="inline-block"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = '/';
-            }}
-          >
+          <Link href="/">
             <div className="flex items-center text-white mb-8 hover:bg-white/10 py-2 px-4 rounded-md transition-colors group">
               <ChevronLeft className="mr-2 h-4 w-4 transition-transform group-hover:-translate-x-1" />
               <span>Back to Home</span>
             </div>
-          </a>
+          </Link>
           
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white text-sm font-medium mb-6 border border-white/20 animate-pulse">
@@ -226,31 +219,17 @@ const FeaturePage = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="/dashboard" 
-              className="inline-block"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = '/dashboard';
-              }}
-            >
+            <Link href="/dashboard">
               <div className="px-6 py-3 bg-white text-blue-600 hover:bg-blue-50 transition-colors rounded-md font-medium dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-blue-400">
                 Get Started
               </div>
-            </a>
+            </Link>
             
-            <a 
-              href="/" 
-              className="inline-block"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = '/';
-              }}
-            >
+            <Link href="/">
               <div className="px-6 py-3 border border-white text-white hover:bg-white/10 transition-colors rounded-md font-medium">
                 Learn More
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

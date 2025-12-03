@@ -422,7 +422,7 @@ const FeatureInsightsPage = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-sm">You're currently paying for 3 streaming services but primarily use only one. Consider rotating services (potential saving: ₹1,000/month)</p>
+                    <p className="text-sm">You&apos;re currently paying for 3 streaming services but primarily use only one. Consider rotating services (potential saving: ₹1,000/month)</p>
                   </li>
                   <li className="flex items-start bg-white rounded-lg p-3 shadow-sm">
                     <div className="bg-green-100 rounded-full p-1 mr-3 mt-0.5">
@@ -479,7 +479,7 @@ const FeatureInsightsPage = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Gain Financial Clarity?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join thousands of users who are making smarter financial decisions with Paisa's
+            Join thousands of users who are making smarter financial decisions with Paisa&apos;s
             powerful AI-driven insights.
           </p>
           

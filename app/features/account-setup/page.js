@@ -45,7 +45,7 @@ export default function AccountSetupPage() {
               <CardContent className="p-6">
                 <div className="mb-6">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Click on the "Get Started" or "Sign Up" button on the Paisa homepage to navigate to the registration page.
+                    Click on the &quot;Get Started&quot; or &quot;Sign Up&quot; button on the Paisa homepage to navigate to the registration page.
                   </p>
                   <div className="flex justify-center">
                     <div className="relative w-full max-w-2xl h-64 rounded-lg overflow-hidden shadow-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
@@ -146,11 +146,11 @@ export default function AccountSetupPage() {
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/2">
                     <p className="text-gray-600 dark:text-gray-300 mb-4">
-                      After submitting your registration form, we'll send a verification email to the address you provided. Click the verification link in the email to confirm your account.
+                      After submitting your registration form, we&apos;ll send a verification email to the address you provided. Click the verification link in the email to confirm your account.
                     </p>
                     <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-900/50 mb-4">
                       <p className="text-sm text-blue-700 dark:text-blue-300">
-                        <strong>Tip:</strong> Check your spam folder if you don't see the email in your inbox within a few minutes.
+                        <strong>Tip:</strong> Check your spam folder if you don&apos;t see the email in your inbox within a few minutes.
                       </p>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ export default function AccountSetupPage() {
             <Card className="overflow-hidden border-blue-100 dark:border-blue-900">
               <CardContent className="p-6">
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  After verifying your email, you'll be prompted to complete your profile. This information helps us personalize your financial management experience.
+                  After verifying your email, you&apos;ll be prompted to complete your profile. This information helps us personalize your financial management experience.
                 </p>
                 <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm p-6 max-w-2xl mx-auto">
                   <h3 className="text-xl font-semibold text-center text-gray-800 dark:text-white mb-6">Complete Your Profile</h3>
